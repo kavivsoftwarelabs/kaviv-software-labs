@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { SITE } from "../../lib/site";
+import logo from "../../assets/logo.jpeg";
 
 const links = [
   { href: "#mission", label: "Mission" },
@@ -34,11 +35,13 @@ export default function Navbar() {
         <Link
           to="/"
           data-testid="nav-logo"
-          className="flex items-center gap-2.5 group"
+          className="flex items-center gap-3 group"
         >
-          <span className="grid place-items-center size-9 rounded-md bg-navy-900 text-offwhite font-mono text-sm group-hover:bg-indigo-600 transition-colors">
-            {"{K}"}
-          </span>
+          <img
+            src={logo}
+            alt="Kaviv Software Labs logo"
+            className="h-10 w-10 rounded-md object-cover border border-navy-200"
+          />
           <div className="leading-tight">
             <div className="font-display font-bold text-navy-900 text-[17px]">
               Kaviv Software Labs
