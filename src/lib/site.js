@@ -2,7 +2,7 @@
 export const SITE = {
   name: "Kaviv Software Labs",
   tagline: "Building Digital Foundations for Local Excellence.",
-  email: "hello@kavivlabs.in", // placeholder
+  email: "kavivsoftwarelabs@gmail.com", // placeholder
   linkedin: "https://www.linkedin.com/company/kaviv-software-labs", // placeholder
   udyam: "UDYAM-XX-00-0000000", // placeholder
   location: "India",
