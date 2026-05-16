@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/kaviv-software-labs/static/css/main.697bd374.css",
-    "main.js": "/kaviv-software-labs/static/js/main.9ef852c6.js",
+    "main.css": "/kaviv-software-labs/static/css/main.16958e96.css",
+    "main.js": "/kaviv-software-labs/static/js/main.9e8378a7.js",
     "static/js/453.785de472.chunk.js": "/kaviv-software-labs/static/js/453.785de472.chunk.js",
+    "static/media/logo.jpeg": "/kaviv-software-labs/static/media/logo.1f7cc6e5c71886f0cae1.jpeg",
     "index.html": "/kaviv-software-labs/index.html",
-    "main.697bd374.css.map": "/kaviv-software-labs/static/css/main.697bd374.css.map",
-    "main.9ef852c6.js.map": "/kaviv-software-labs/static/js/main.9ef852c6.js.map",
+    "main.16958e96.css.map": "/kaviv-software-labs/static/css/main.16958e96.css.map",
+    "main.9e8378a7.js.map": "/kaviv-software-labs/static/js/main.9e8378a7.js.map",
     "453.785de472.chunk.js.map": "/kaviv-software-labs/static/js/453.785de472.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.697bd374.css",
-    "static/js/main.9ef852c6.js"
+    "static/css/main.16958e96.css",
+    "static/js/main.9e8378a7.js"
   ]
 }
