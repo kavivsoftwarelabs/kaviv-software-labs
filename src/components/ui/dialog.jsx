@@ -1,5 +1,11 @@
 import React, { Fragment } from "react";
-import { Dialog as HDialog, Transition } from "@headlessui/react";
+import {
+  Dialog as HDialog,
+  Transition,
+  DialogBackdrop,
+  DialogTitle as HDialogTitle,
+  DialogDescription as HDialogDescription,
+} from "@headlessui/react";
 
 // A wrapper that matches the previously used API: Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription
 export function Dialog({ children, open = false, onOpenChange = () => {} }) {
@@ -16,7 +22,7 @@ export function Dialog({ children, open = false, onOpenChange = () => {} }) {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <HDialog.Overlay className="fixed inset-0 bg-black/40 backdrop-blur-sm" />
+            <DialogBackdrop className="fixed inset-0 bg-black/40 backdrop-blur-sm" />
           </Transition.Child>
 
           {/* This element is to trick the browser into centering the modal contents. */}
@@ -47,10 +53,10 @@ export const DialogContent = ({ children, className = "" }) => (
 
 export const DialogHeader = ({ children }) => <div className="mb-2">{children}</div>;
 export const DialogTitle = ({ children, className = "" }) => (
-  <HDialog.Title as="h3" className={className}>
+  <HDialogTitle as="h3" className={className}>
     {children}
-  </HDialog.Title>
+  </HDialogTitle>
 );
 export const DialogDescription = ({ children, className = "" }) => (
-  <HDialog.Description className={className}>{children}</HDialog.Description>
+  <HDialogDescription className={className}>{children}</HDialogDescription>
 );
