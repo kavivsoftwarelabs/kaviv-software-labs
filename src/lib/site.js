@@ -7,6 +7,6 @@ export const SITE = {
   udyam: "UDYAM-XX-00-0000000", // placeholder
   location: "India",
   // CTA form URLs — replace with your Google Forms / Typeform links
-  clientFormUrl: "https://forms.gle/your-client-form", // placeholder
-  internFormUrl: "https://forms.gle/your-intern-form", // placeholder
+  clientFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf_UEK-YVcOYiadVsvZHyofZ-yGtFpaOdcn1OkbKADDQHTsew/viewform",
+  internFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLScskZ_OwlDKp8mbNhmy-SI81jTmhKR6pkH5ggQOkEMHdjKvZg/viewform",
 };
