@@ -63,7 +63,7 @@ export default function DualMission() {
                 <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-navy-300">for students</span>
               </div>
               <h3 className="mt-6 font-display text-2xl font-bold leading-tight">
-                Real projects. Real reviews. Real understanding of the SDLC.
+                Real projects. Real reviews. Real understanding of AI-first software development.
               </h3>
               <p className="mt-3 text-navy-200 leading-relaxed">
                 Get mentored by senior industry professionals shipping production software. No busywork, no fluff —

@@ -44,7 +44,7 @@ export default function Process() {
 					</div>
 					<h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
 						The{" "}
-						<span className="text-indigo-400">SDLC-first</span> approach.
+					<span className="text-indigo-400">AI-first</span> software development approach.
 					</h2>
 					<p className="mt-4 text-navy-200 text-base leading-relaxed">
 						We don't ship code. We ship outcomes — through a process every student

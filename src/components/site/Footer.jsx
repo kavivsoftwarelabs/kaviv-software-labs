@@ -19,7 +19,7 @@ export default function Footer() {
               <div className="leading-tight">
                 <div className="font-display font-bold text-[17px]">Kaviv Software Labs</div>
                 <div className="text-[10px] uppercase tracking-[0.18em] text-navy-300 font-mono">
-                  software · sdlc · sustained
+                  software · AI-first · sustained
                 </div>
               </div>
             </div>

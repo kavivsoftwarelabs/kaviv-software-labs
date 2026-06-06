@@ -5,7 +5,7 @@ const weeks = [
 	{
 		w: "Week 01",
 		title: "Foundations & Architecture",
-		desc: "SDLC fundamentals, requirement gathering, system design, repo hygiene, and code-review etiquette.",
+		desc: "AI-first software development fundamentals, requirement gathering, system design, repo hygiene, and code-review etiquette.",
 		icon: BookOpen,
 	},
 	{

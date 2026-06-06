@@ -57,18 +57,18 @@ function BentoGrid() {
           <span className="size-2.5 rounded-full bg-rose-400/80" />
           <span className="size-2.5 rounded-full bg-amber-400/80" />
           <span className="size-2.5 rounded-full bg-emerald-400/80" />
-          <span className="ml-3 font-mono text-[11px] text-navy-300">~/Kaviv Software Labs/sdlc.ts</span>
+          <span className="ml-3 font-mono text-[11px] text-navy-300">~/Kaviv Software Labs/ai-first.ts</span>
         </div>
         <pre className="font-mono text-[12.5px] leading-relaxed text-navy-100 relative">
 {`// Discipline > heroics
-export const sdlc = {
+export const aiFirst = {
   discover : "listen first",
   design   : "draw before code",
   develop  : "small commits, signed reviews",
   deploy   : "ship · monitor · iterate",
 } as const;
 
-const ship = (idea) => sdlc
+const ship = (idea) => aiFirst
   .discover(idea)
   .design()
   .develop({ pair: "senior+intern" })

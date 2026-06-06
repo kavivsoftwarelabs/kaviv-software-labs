@@ -47,7 +47,7 @@ export default function Navbar() {
               Kaviv Software Labs
             </div>
             <div className="text-[10px] uppercase tracking-[0.18em] text-navy-500 font-mono">
-              software · sdlc · sustained
+              software · AI-first · sustained
             </div>
           </div>
         </Link>
