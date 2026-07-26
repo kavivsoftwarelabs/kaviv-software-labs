@@ -44,7 +44,7 @@ export default function Verify() {
                 Verify Your Certificate
               </h1>
               <p className="text-navy-600 text-lg leading-relaxed max-w-xl mx-auto">
-                Enter your certificate ID to verify your completion of the 3-Week Internship Program at Kaviv Software Labs.
+                Enter your certificate ID to verify your completion of the 3-Week Simulation Program at Kaviv Software Labs.
               </p>
             </div>
 
