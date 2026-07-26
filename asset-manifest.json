@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kaviv-software-labs/static/css/main.b122bcfe.css",
-    "main.js": "/kaviv-software-labs/static/js/main.9886cbb6.js",
+    "main.js": "/kaviv-software-labs/static/js/main.827e0bf0.js",
     "static/js/453.785de472.chunk.js": "/kaviv-software-labs/static/js/453.785de472.chunk.js",
     "static/media/logo.jpeg": "/kaviv-software-labs/static/media/logo.1f7cc6e5c71886f0cae1.jpeg",
     "index.html": "/kaviv-software-labs/index.html",
     "main.b122bcfe.css.map": "/kaviv-software-labs/static/css/main.b122bcfe.css.map",
-    "main.9886cbb6.js.map": "/kaviv-software-labs/static/js/main.9886cbb6.js.map",
+    "main.827e0bf0.js.map": "/kaviv-software-labs/static/js/main.827e0bf0.js.map",
     "453.785de472.chunk.js.map": "/kaviv-software-labs/static/js/453.785de472.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b122bcfe.css",
-    "static/js/main.9886cbb6.js"
+    "static/js/main.827e0bf0.js"
   ]
 }
