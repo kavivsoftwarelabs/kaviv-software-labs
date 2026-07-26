@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <script>
+      (function () {
+        const repoBase = '/kaviv-software-labs';
+        const requestedPath = window.location.pathname + window.location.search + window.location.hash;
+        const normalizedPath = requestedPath.startsWith(repoBase)
+          ? requestedPath.slice(repoBase.length) || '/'
+          : requestedPath;
+
+        window.location.replace(`${repoBase}/?p=${encodeURIComponent(normalizedPath)}`);
+      })();
+    </script>
+  </body>
+</html>

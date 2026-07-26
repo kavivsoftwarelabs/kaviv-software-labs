@@ -6,6 +6,19 @@
     <title>Kaviv Software Labs</title>
   </head>
   <body>
+    <script>
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+        const redirectPath = params.get('p');
+
+        if (redirectPath) {
+          const normalizedPath = redirectPath.startsWith('/') ? redirectPath : `/${redirectPath}`;
+          const basePath = window.location.pathname.replace(/\/$/, '');
+          const targetPath = `${basePath}${normalizedPath === '/' ? '' : normalizedPath}`;
+          window.history.replaceState({}, '', targetPath);
+        }
+      })();
+    </script>
     <div id="root"></div>
   </body>
 </html>

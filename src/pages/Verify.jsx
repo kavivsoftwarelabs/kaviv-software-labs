@@ -141,10 +141,7 @@ export default function Verify() {
             {!hasSearched && (
               <div className="bg-indigo-50 border border-indigo-200 rounded-2xl p-8 text-center">
                 <p className="text-navy-700 text-sm leading-relaxed">
-                  <span className="font-semibold">Certificate ID Format:</span>{" "}
-                  <span className="font-mono text-indigo-600">KVL-&lt;PROGRAM&gt;-&lt;YEAR&gt;-&lt;LETTER&gt;&lt;SEQUENCE&gt;</span>
-                  <br />
-                  <span className="text-xs text-navy-600 mt-2 block">Example: KVL-SIM-2025-A001</span>
+                  Enter the certificate ID shown on your completion document to verify it instantly.
                 </p>
               </div>
             )}
