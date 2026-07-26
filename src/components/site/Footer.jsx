@@ -46,23 +46,23 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-navy-300 mb-4">// services</div>
             <ul className="space-y-2.5 text-sm text-navy-200">
-              <li><a href="#services" className="hover:text-offwhite transition-colors">Education</a></li>
-              <li><a href="#services" className="hover:text-offwhite transition-colors">Hospitality</a></li>
-              <li><a href="#services" className="hover:text-offwhite transition-colors">Business</a></li>
-              <li><a href="#process" className="hover:text-offwhite transition-colors">Our Process</a></li>
+              <li><Link to={{ pathname: "/", hash: "#services" }} className="hover:text-offwhite transition-colors">Education</Link></li>
+              <li><Link to={{ pathname: "/", hash: "#services" }} className="hover:text-offwhite transition-colors">Hospitality</Link></li>
+              <li><Link to={{ pathname: "/", hash: "#services" }} className="hover:text-offwhite transition-colors">Business</Link></li>
+              <li><Link to={{ pathname: "/", hash: "#process" }} className="hover:text-offwhite transition-colors">Our Process</Link></li>
             </ul>
           </div>
 
           <div className="lg:col-span-2">
             <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-navy-300 mb-4">// the lab</div>
             <ul className="space-y-2.5 text-sm text-navy-200">
-              <li><a href="#lab" className="hover:text-offwhite transition-colors">Internship</a></li>
+              <li><Link to={{ pathname: "/", hash: "#lab" }} className="hover:text-offwhite transition-colors">Internship</Link></li>
               <li>
                 <Link to="/verify" data-testid="footer-link-verify" className="hover:text-offwhite transition-colors">
                   Verification
                 </Link>
               </li>
-              <li><a href="#mission" className="hover:text-offwhite transition-colors">Why us</a></li>
+              <li><Link to={{ pathname: "/", hash: "#mission" }} className="hover:text-offwhite transition-colors">Why us</Link></li>
             </ul>
           </div>
 

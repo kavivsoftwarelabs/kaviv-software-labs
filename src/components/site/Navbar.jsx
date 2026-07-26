@@ -54,15 +54,15 @@ export default function Navbar() {
 
         <nav className="hidden md:flex items-center gap-8">
           {links.map((l) => (
-            <a
+            <Link
               key={l.href}
-              href={l.href}
+              to={{ pathname: "/", hash: l.href }}
               data-testid={`nav-link-${l.label.toLowerCase().replace(/\s/g, "-")}`}
               className="text-sm text-navy-700 hover:text-indigo-600 transition-colors relative group"
             >
               {l.label}
               <span className="absolute -bottom-1 left-0 h-px w-0 bg-indigo-500 group-hover:w-full transition-all duration-300" />
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -102,14 +102,14 @@ export default function Navbar() {
         <div className="md:hidden border-t border-navy-100 bg-offwhite" data-testid="nav-mobile-menu">
           <div className="px-6 py-4 flex flex-col gap-4">
             {links.map((l) => (
-              <a
+              <Link
                 key={l.href}
-                href={l.href}
+                to={{ pathname: "/", hash: l.href }}
                 onClick={() => setOpen(false)}
-                className="text-navy-800 font-medium"
+                className="text-navy-800 font-medium text-left"
               >
                 {l.label}
-              </a>
+              </Link>
             ))}
             <div className="flex gap-3 pt-2">
               <a
